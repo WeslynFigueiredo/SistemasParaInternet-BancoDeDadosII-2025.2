@@ -1,6 +1,6 @@
-CREATE DATABASE gestão_de_projetos;
+CREATE DATABASE gestao_de_projetos;
 
-USE gestão_de_projetos;
+USE gestao_de_projetos;
 
 CREATE TABLE projetos (
   id_projeto INT PRIMARY KEY,
