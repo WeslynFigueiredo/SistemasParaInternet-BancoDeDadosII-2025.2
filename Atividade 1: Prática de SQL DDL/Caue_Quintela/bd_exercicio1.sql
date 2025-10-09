@@ -1,6 +1,3 @@
-# DDL - CREATE, ALTER, DROP
-# DML - 
-
 # CREATE (DATABASE) OU (TABLE)
 
 CREATE DATABASE loja_roupas;
