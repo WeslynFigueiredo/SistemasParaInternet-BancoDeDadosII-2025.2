@@ -1,5 +1,3 @@
-# CREATE (DATABASE) OU (TABLE)
-
 CREATE DATABASE loja_roupas;
 
 USE loja_roupas;
