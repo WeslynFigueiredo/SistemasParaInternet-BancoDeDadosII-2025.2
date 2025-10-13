@@ -9,5 +9,5 @@ create table pedidos (
 id_pedido int primary key,
 id_cliente int,
 FOREIGN KEY (id_cliente) REFERENCES clientes(id_cliente),
-data_do_pedido DATE NOT NULL,
+data_do_pedido  NOT NULL DEFAULT CURRENT_DATE,
 valor_total DECIMAL (10,2) NOT NULL);
