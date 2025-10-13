@@ -9,6 +9,6 @@ create table post (
 id_post INT PRIMARY KEY,
 id_usuario INT,
 conteudo text NOT NULL,
-data_post  NOT NULL DEFAULT CURRENT_TIMESTAMP,
+data_post  NOT NULL DEFAULT CURRENT_TIMESTAMP CHECK UNIQUE,
  FOREIGN KEY(id_usuario) REFERENCES usuarios(id_usuarios)
  );
