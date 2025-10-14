@@ -1,9 +1,3 @@
--- Exercício 8: Clínica Médica
-
-CREATE DATABASE clinica_medica;
-
-USE clinica_medica;
-
 CREATE TABLE pacientes (
     id_paciente INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(100) NOT NULL,
@@ -18,7 +12,7 @@ CREATE TABLE medicos (
 );
 
 CREATE TABLE consultas (
-    id_consulta INT PRIMARY KEY AUTO_INCREMENT,
+    id_consulta INT PRIMARY KEY,
     id_paciente INT,
     crm_medico VARCHAR(15),
     data_hora DATETIME NOT NULL,

@@ -1,10 +1,4 @@
-CREATE DATABASE loja_de_roupas;
-
-
-USE loja_de_roupas;
-
-CREATE TABLE produtos (
-	id_produto INT AUTO_INCREMENT PRIMARY KEY,
+ id_produto INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(50) NOT NULL,
     descricao VARCHAR(255),
     preco DECIMAL(10, 2) NOT NULL,
