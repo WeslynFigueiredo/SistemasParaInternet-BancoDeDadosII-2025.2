@@ -1,7 +1,7 @@
 create database sistema_escolar;
 USE sistema_escolar;
 create table alunos (
-Matricula Varchar(100) PRIMARY KEY,
+Matricula Varchar(10) PRIMARY KEY,
 Nome Varchar(100) NOT NULL,
 data_Nascimento date);
 create table Disciplina (
